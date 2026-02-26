@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+
+# Tests
+.pytest_cache/
+
+# Agent metadata
+.brain/
+
+# Debug files
+*.txt
+nul
+
+# Local data (if applicable)
+# data/

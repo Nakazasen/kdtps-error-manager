@@ -1,0 +1,967 @@
+14:36:20.011 [INFO] __main__: ============================================================
+14:36:20.011 [INFO] __main__: KDTPS Error Manager - Log Session: 2026-02-05 14:36:20.011644
+14:36:20.012 [INFO] __main__: Log file: c:\ProgramData\Sandbox\kdtps-error-manager\data\logs\debug.log
+14:36:20.012 [INFO] __main__: ============================================================
+14:36:20.012 [INFO] __main__: Starting KDTPS Error Manager...
+14:36:20.489 [INFO] core.database: Database tables created successfully
+14:36:20.502 [INFO] ui.login_dialog: Loaded 72 users into LoginDialog
+14:36:30.162 [INFO] ui.login_dialog: User selected: Vinh PTHTCT
+14:36:30.180 [INFO] __main__: Login successful for user: Vinh PTHTCT
+14:36:30.187 [INFO] core.sync_manager: Sync Manager stopped.
+14:36:30.342 [INFO] ui.report_widget: Report refreshed
+14:36:30.396 [INFO] ui.widgets.dashboard_widget: Dashboard stats refreshed
+14:36:30.404 [INFO] ui.widgets.sync_log_widget: Refreshed 0 sync logs
+14:36:30.475 [DEBUG] ui.main_window: Loading grid data. Dept: None, Pending: False, JP: False
+14:36:30.476 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=None, Sheet=Máy in, Pending=False, JP=False
+14:36:30.477 [DEBUG] ui.widgets.data_grid: GridView fetched: 3 records
+14:36:30.479 [INFO] ui.widgets.data_grid: Loaded 3 records
+14:36:30.479 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=None, Sheet=KIT, Pending=False, JP=False
+14:36:30.480 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:36:30.481 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:36:30.483 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:36:30.594 [INFO] __main__: Application window shown
+14:36:35.633 [DEBUG] ui.main_window: Loading grid data. Dept: 4, Pending: False, JP: False
+14:36:35.634 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=Máy in, Pending=False, JP=False
+14:36:35.635 [DEBUG] ui.widgets.data_grid: GridView fetched: 3 records
+14:36:35.637 [INFO] ui.widgets.data_grid: Loaded 3 records
+14:36:35.637 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=KIT, Pending=False, JP=False
+14:36:35.638 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:36:35.640 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:36:35.641 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:39:34.154 [DEBUG] ui.import_dialog: [ImportDialog] load_preview() called
+14:39:34.154 [DEBUG] ui.import_dialog: [ImportDialog] Loading preview for: //fstvn01/Data/00_KDTVN Common(KDTVN共通)/③Process QC(品質管理)/001. Báo cáo hàng ngày KDTPS/FY2026下期機器製造 品質状況 Tình hình chất lượng chế tạo máy FY2026 (6 tháng cuối năm).xlsx
+14:39:34.155 [DEBUG] ui.import_dialog: [ImportDialog] Creating PreviewWorker...
+14:39:34.156 [DEBUG] ui.import_dialog: [PreviewWorker] Created for file: //fstvn01/Data/00_KDTVN Common(KDTVN共通)/③Process QC(品質管理)/001. Báo cáo hàng ngày KDTPS/FY2026下期機器製造 品質状況 Tình hình chất lượng chế tạo máy FY2026 (6 tháng cuối năm).xlsx
+14:39:34.156 [DEBUG] ui.import_dialog: [ImportDialog] Connecting signals...
+14:39:34.156 [DEBUG] ui.import_dialog: [ImportDialog] Starting PreviewWorker thread...
+14:39:34.157 [DEBUG] ui.import_dialog: [ImportDialog] PreviewWorker.start() called, waiting for signals...
+14:39:34.160 [DEBUG] ui.import_dialog: [PreviewWorker] run() STARTED
+14:39:34.160 [DEBUG] ui.import_dialog: [PreviewWorker] Importing openpyxl...
+14:39:34.908 [DEBUG] ui.import_dialog: [PreviewWorker] openpyxl imported successfully
+14:39:34.908 [DEBUG] ui.import_dialog: [PreviewWorker] Opening file: //fstvn01/Data/00_KDTVN Common(KDTVN共通)/③Process QC(品質管理)/001. Báo cáo hàng ngày KDTPS/FY2026下期機器製造 品質状況 Tình hình chất lượng chế tạo máy FY2026 (6 tháng cuối năm).xlsx
+14:39:35.791 [DEBUG] ui.import_dialog: [PreviewWorker] File opened successfully with openpyxl
+14:39:35.792 [DEBUG] ui.import_dialog: [PreviewWorker] Active sheet: Sheet1, max_row=1817
+14:39:35.794 [DEBUG] ui.import_dialog: [PreviewWorker] end_col_idx=16
+14:39:35.795 [DEBUG] ui.import_dialog: [PreviewWorker] Reading headers from row 2...
+14:39:35.798 [DEBUG] ui.import_dialog: [PreviewWorker] Headers count: 16
+14:39:35.799 [DEBUG] ui.import_dialog: [PreviewWorker] Reading first 10 rows for preview...
+14:39:35.805 [DEBUG] ui.import_dialog: [PreviewWorker] Preview rows loaded: 10
+14:39:35.805 [DEBUG] ui.import_dialog: [PreviewWorker] Scanning columns D to O for unique values...
+14:39:35.820 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.844 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.859 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.883 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.900 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.921 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.943 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.951 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.957 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.965 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.974 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.984 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:35.993 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.005 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.020 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.028 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '電気技術\n製造技術'
+14:39:36.037 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.046 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.057 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.059 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.060 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.064 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.067 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.069 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.072 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.073 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.074 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.075 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.078 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.081 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.083 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.084 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.085 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.087 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.088 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.089 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.090 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.092 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.097 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.101 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.102 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.104 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.110 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.121 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.123 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.125 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.130 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.135 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.136 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.139 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.143 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.148 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.149 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.150 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.150 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.151 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.151 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.152 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.153 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.155 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.156 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.156 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.157 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.160 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.161 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.162 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.163 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.164 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.166 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.166 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.167 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.168 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.169 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.171 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.172 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.173 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.174 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.175 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.175 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.176 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.179 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.179 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.180 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.181 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.182 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.184 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.186 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.187 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.188 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.188 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.189 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.189 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.190 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.190 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.191 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.192 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.193 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.194 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.195 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.196 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.197 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.198 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.198 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.200 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.200 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n部品品質管理'
+14:39:36.201 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n部品品質管理'
+14:39:36.201 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.202 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.203 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.204 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '外製品管\n製造技術\n工程QC'
+14:39:36.205 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.206 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.206 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.206 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.208 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.209 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.209 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.210 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '電気技術\n製造技術'
+14:39:36.212 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.213 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.213 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.215 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.216 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.217 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.218 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.218 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.219 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.220 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.220 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.222 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.222 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.223 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n電気技術'
+14:39:36.223 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.224 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.224 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.227 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.228 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.229 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.230 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n外製品管'
+14:39:36.231 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.233 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.233 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.234 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.235 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.236 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.236 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.237 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.237 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.237 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.239 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.239 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.240 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.240 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.241 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.242 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.242 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.243 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.246 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.247 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.248 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.248 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.250 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.250 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.251 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.251 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.252 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.253 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.253 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.254 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.255 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.256 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.256 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.257 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.258 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.259 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.259 [DEBUG] ui.import_dialog: [PreviewWorker] Scanned 500 rows...
+14:39:36.260 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.262 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.263 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.264 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.265 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.267 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.268 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.269 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.270 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.272 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.272 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.275 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.276 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.280 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.282 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.285 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.285 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.286 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.287 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.291 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.294 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.296 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.298 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.300 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.301 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.301 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.302 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.303 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.305 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.306 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.307 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.308 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.309 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.313 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.315 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.316 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.318 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.318 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.319 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.320 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.321 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.322 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.323 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.323 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.326 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.329 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.330 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.330 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.332 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.333 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.335 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.335 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.338 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.339 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.340 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n外製品管'
+14:39:36.341 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n外製品管'
+14:39:36.341 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.342 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.343 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.346 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.347 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.347 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.349 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.349 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.350 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.350 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.351 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.352 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.353 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '部品品質管理\n製造技術'
+14:39:36.354 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.354 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.355 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.357 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.357 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.358 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.358 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.360 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.360 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.364 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.365 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.367 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.367 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.369 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.370 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.371 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.372 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.373 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.373 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.375 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.376 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.376 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.377 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.378 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.380 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.381 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.382 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.383 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.385 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.385 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.386 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.387 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.387 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.389 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.390 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.390 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.391 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.391 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.392 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.393 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.395 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.397 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '外製品管\n製造技術'
+14:39:36.398 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.401 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.402 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.403 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.403 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.404 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.406 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.410 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.411 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.412 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.413 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.414 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.415 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.416 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.416 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.417 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.418 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.420 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.420 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.420 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.421 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.421 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.422 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.422 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.424 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.425 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.426 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.427 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.428 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.431 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.431 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.431 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.432 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.432 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.433 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.435 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.435 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.436 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.437 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.440 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.440 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.441 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.442 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.442 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.443 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.444 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.447 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.448 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.449 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.450 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.450 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.453 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.453 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.454 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.456 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.456 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.458 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.459 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.460 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.460 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.461 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.462 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.463 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.465 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.466 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.467 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.468 [DEBUG] ui.import_dialog: [PreviewWorker] Scanned 1000 rows...
+14:39:36.470 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.471 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.471 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.472 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.474 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.475 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.476 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.477 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '外製品管\n製造技術'
+14:39:36.480 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.480 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.481 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.481 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.482 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.483 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.484 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.484 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.485 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.485 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.486 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.487 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.487 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.490 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.491 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.491 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.492 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.493 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.494 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.494 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.495 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.496 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.498 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.499 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.502 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.503 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.505 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.505 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.506 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.506 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n外製品管'
+14:39:36.510 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.516 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.517 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.518 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.519 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.520 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.521 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.521 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.522 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.523 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.524 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.526 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.528 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.530 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.530 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.531 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '外製品管\n製造技術'
+14:39:36.532 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.532 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.533 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.534 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.534 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.537 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.538 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.538 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.539 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.539 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.540 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.542 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.544 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.546 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.548 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.548 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.550 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.551 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.552 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.552 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.553 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.553 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.554 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.554 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.556 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.556 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.557 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.558 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.558 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.559 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.560 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.564 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.565 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.567 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.568 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.569 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.570 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.571 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.572 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.573 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.574 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.575 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.576 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.577 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.579 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.582 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.583 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.583 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.584 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.584 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.585 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.586 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.586 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.587 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.588 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.589 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.590 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.590 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.591 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.591 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.592 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.594 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.596 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.597 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.598 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.600 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.601 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.602 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.603 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.604 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.605 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.607 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.607 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.608 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n外製品管'
+14:39:36.611 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.612 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.613 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.614 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.617 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.620 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.621 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.621 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.622 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.623 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.623 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.625 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.626 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.629 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.630 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.633 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.635 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '電気技術\n製造技術'
+14:39:36.636 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.637 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.637 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.638 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.638 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.640 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.642 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.643 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.646 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.649 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.650 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.651 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.652 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.653 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.656 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.656 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.657 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.659 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.662 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.663 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.664 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.665 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.666 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.666 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.668 [DEBUG] ui.import_dialog: [PreviewWorker] Scanned 1500 rows...
+14:39:36.669 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.671 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.672 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.673 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.676 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.677 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.680 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.680 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.681 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.683 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.683 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.684 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.685 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.686 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.688 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.689 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.689 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.690 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.690 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.691 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.691 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.692 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.693 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.694 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術\n生産技術'
+14:39:36.695 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.697 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.697 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.698 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.698 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.699 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.699 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.700 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.701 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.701 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.702 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.703 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.704 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.704 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.706 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.706 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.707 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.708 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.710 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.713 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.714 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.714 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.715 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.716 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.716 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.717 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.718 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.719 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.719 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.720 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.720 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.721 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.722 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.723 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.724 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.725 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.729 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.730 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.730 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.731 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.731 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.731 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.732 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.733 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.733 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.735 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.735 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.736 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.737 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.738 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.739 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.740 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.740 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.742 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.743 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.744 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.747 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.747 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.748 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.748 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.749 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.750 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.750 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.751 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.751 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.752 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.752 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.752 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.753 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.753 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.754 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.754 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.756 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.756 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.757 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.757 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.758 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.758 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.758 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.761 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.762 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.762 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.763 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.764 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.764 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.765 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.765 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.766 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.767 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.769 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.770 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.774 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.774 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.775 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.777 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.778 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.779 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.780 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.780 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.782 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.782 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.782 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.783 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.784 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.784 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.785 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.786 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.787 [DEBUG] ui.import_dialog: [PreviewWorker] Found Dept: '製造技術'
+14:39:36.790 [DEBUG] ui.import_dialog: [PreviewWorker] Column D scan done: 1815 rows, 25 unique Lines
+14:39:36.790 [DEBUG] ui.import_dialog: [PreviewWorker] Lines found: ['A23', 'A24', 'A25', 'A2D', 'A2E', 'B2C', 'BOX WASTE ASSY', 'C21', 'C22', 'C23', 'C24', 'C25', 'C26', 'C27', 'C2B', 'C2C', 'C2D', 'C33', 'C34', 'C35', 'C3A', 'LSU', 'ROLLER MAG ASSY', 'RPS', 'RPS2']
+14:39:36.790 [DEBUG] ui.import_dialog: [PreviewWorker] Estimated total rows: 1815
+14:39:36.791 [DEBUG] ui.import_dialog: [PreviewWorker] Closing workbook...
+14:39:36.791 [DEBUG] ui.import_dialog: [PreviewWorker] Emitting preview_ready: headers=16, rows=10, total=1815, lines=25, depts=14
+14:39:36.793 [DEBUG] ui.import_dialog: [PreviewWorker] preview_ready EMITTED successfully
+14:39:36.793 [DEBUG] ui.import_dialog: [ImportDialog] on_preview_finished() RECEIVED: headers=16, rows=10, total=1815, lines=25, depts=14
+14:40:15.329 [DEBUG] ui.main_window: Loading grid data. Dept: 3, Pending: False, JP: False
+14:40:15.329 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=Máy in, Pending=False, JP=False
+14:40:15.331 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:15.332 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:15.333 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=KIT, Pending=False, JP=False
+14:40:15.334 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:15.336 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:15.337 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:15.777 [DEBUG] ui.main_window: Loading grid data. Dept: 2, Pending: False, JP: False
+14:40:15.777 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=Máy in, Pending=False, JP=False
+14:40:15.779 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:15.780 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:15.781 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=KIT, Pending=False, JP=False
+14:40:15.782 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:15.784 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:15.785 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:16.129 [DEBUG] ui.main_window: Loading grid data. Dept: 1, Pending: False, JP: False
+14:40:16.129 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=Máy in, Pending=False, JP=False
+14:40:16.131 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:16.133 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:16.133 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=KIT, Pending=False, JP=False
+14:40:16.134 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:16.136 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:16.137 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:17.466 [DEBUG] ui.main_window: Loading grid data. Dept: 2, Pending: False, JP: False
+14:40:17.466 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=Máy in, Pending=False, JP=False
+14:40:17.468 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:17.469 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:17.470 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=KIT, Pending=False, JP=False
+14:40:17.471 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:17.473 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:17.474 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:17.896 [DEBUG] ui.main_window: Loading grid data. Dept: 3, Pending: False, JP: False
+14:40:17.897 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=Máy in, Pending=False, JP=False
+14:40:17.898 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:17.900 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:17.900 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=KIT, Pending=False, JP=False
+14:40:17.902 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:17.903 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:17.905 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:18.192 [DEBUG] ui.main_window: Loading grid data. Dept: 4, Pending: False, JP: False
+14:40:18.193 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=Máy in, Pending=False, JP=False
+14:40:18.194 [DEBUG] ui.widgets.data_grid: GridView fetched: 3 records
+14:40:18.195 [INFO] ui.widgets.data_grid: Loaded 3 records
+14:40:18.196 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=KIT, Pending=False, JP=False
+14:40:18.197 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:18.198 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:18.200 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:53.306 [DEBUG] ui.main_window: Loading grid data. Dept: 1, Pending: False, JP: False
+14:40:53.306 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=Máy in, Pending=False, JP=False
+14:40:53.308 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:53.309 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:53.310 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=KIT, Pending=False, JP=False
+14:40:53.311 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:53.313 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:53.314 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:53.769 [DEBUG] ui.main_window: Loading grid data. Dept: 2, Pending: False, JP: False
+14:40:53.770 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=Máy in, Pending=False, JP=False
+14:40:53.771 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:53.772 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:53.773 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=KIT, Pending=False, JP=False
+14:40:53.774 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:53.776 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:53.777 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:54.202 [DEBUG] ui.main_window: Loading grid data. Dept: 3, Pending: False, JP: False
+14:40:54.202 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=Máy in, Pending=False, JP=False
+14:40:54.204 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:54.205 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:54.206 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=KIT, Pending=False, JP=False
+14:40:54.207 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:54.209 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:54.210 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:54.537 [DEBUG] ui.main_window: Loading grid data. Dept: 4, Pending: False, JP: False
+14:40:54.538 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=Máy in, Pending=False, JP=False
+14:40:54.540 [DEBUG] ui.widgets.data_grid: GridView fetched: 3 records
+14:40:54.541 [INFO] ui.widgets.data_grid: Loaded 3 records
+14:40:54.542 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=KIT, Pending=False, JP=False
+14:40:54.543 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:54.545 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:54.546 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:54.928 [DEBUG] ui.main_window: Loading grid data. Dept: 3, Pending: False, JP: False
+14:40:54.929 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=Máy in, Pending=False, JP=False
+14:40:54.930 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:54.932 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:54.932 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=KIT, Pending=False, JP=False
+14:40:54.934 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:54.936 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:54.938 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:55.322 [DEBUG] ui.main_window: Loading grid data. Dept: 2, Pending: False, JP: False
+14:40:55.322 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=Máy in, Pending=False, JP=False
+14:40:55.323 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:55.325 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:55.325 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=KIT, Pending=False, JP=False
+14:40:55.327 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:55.328 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:55.329 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:55.688 [DEBUG] ui.main_window: Loading grid data. Dept: 1, Pending: False, JP: False
+14:40:55.689 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=Máy in, Pending=False, JP=False
+14:40:55.690 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:55.691 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:55.692 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=KIT, Pending=False, JP=False
+14:40:55.693 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:55.694 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:55.696 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:40:57.417 [DEBUG] ui.main_window: Loading grid data. Dept: 4, Pending: False, JP: False
+14:40:57.417 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=Máy in, Pending=False, JP=False
+14:40:57.419 [DEBUG] ui.widgets.data_grid: GridView fetched: 3 records
+14:40:57.420 [INFO] ui.widgets.data_grid: Loaded 3 records
+14:40:57.421 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=KIT, Pending=False, JP=False
+14:40:57.422 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:40:57.424 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:40:57.425 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:41:14.814 [INFO] core.email_handler: Connected to Outlook
+14:41:14.814 [DEBUG] core.email_handler: Creating Outlook mail item...
+14:41:14.824 [DEBUG] core.email_handler: Setting recipients: ['vinh.bd@dtvn.kyocera.com']
+14:41:14.831 [DEBUG] core.email_handler: Building email body...
+14:41:14.841 [INFO] core.email_handler: Displaying Outlook email window...
+14:41:15.298 [INFO] core.email_handler: Created KDTPS reply email for No.4015
+14:42:40.458 [DEBUG] core.translator: Gemini: Attempting translation with Key #1 (ends in 0MPg)
+14:42:41.569 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:41.578 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.012 socket_options=None
+14:42:41.610 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD42E5160>
+14:42:41.611 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD3FA63C0> server_hostname='generativelanguage.googleapis.com' timeout=0.012
+14:42:41.627 [DEBUG] httpcore.connection: start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1011: The handshake operation timed out'))
+14:42:41.628 [WARNING] core.translator: Model gemini-2.5-flash failed with Key #1: _ssl.c:1011: The handshake operation timed out
+14:42:42.476 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:42.477 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.06 socket_options=None
+14:42:42.502 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD42F8550>
+14:42:42.503 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD3FA6450> server_hostname='generativelanguage.googleapis.com' timeout=0.06
+14:42:42.571 [DEBUG] httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD42F8410>
+14:42:42.571 [DEBUG] httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+14:42:42.572 [DEBUG] httpcore.http11: send_request_headers.complete
+14:42:42.572 [DEBUG] httpcore.http11: send_request_body.started request=<Request [b'POST']>
+14:42:42.573 [DEBUG] httpcore.http11: send_request_body.complete
+14:42:42.573 [DEBUG] httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+14:42:42.645 [DEBUG] httpcore.http11: receive_response_headers.failed exception=ReadTimeout(TimeoutError('The read operation timed out'))
+14:42:42.646 [DEBUG] httpcore.http11: response_closed.started
+14:42:42.647 [DEBUG] httpcore.http11: response_closed.complete
+14:42:42.647 [WARNING] core.translator: Model gemini-3-flash-preview failed with Key #1: The read operation timed out
+14:42:43.538 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:43.539 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.028 socket_options=None
+14:42:43.558 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD42F09D0>
+14:42:43.558 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD42D0F80> server_hostname='generativelanguage.googleapis.com' timeout=0.028
+14:42:43.595 [DEBUG] httpcore.connection: start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1011: The handshake operation timed out'))
+14:42:43.596 [WARNING] core.translator: Model gemini-robotics-er-1.5-preview failed with Key #1: _ssl.c:1011: The handshake operation timed out
+14:42:44.472 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:44.472 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.017 socket_options=None
+14:42:44.477 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD43043E0>
+14:42:44.477 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD42D12E0> server_hostname='generativelanguage.googleapis.com' timeout=0.017
+14:42:44.508 [DEBUG] httpcore.connection: start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1011: The handshake operation timed out'))
+14:42:44.508 [WARNING] core.translator: Model gemma-3-27b-it failed with Key #1: _ssl.c:1011: The handshake operation timed out
+14:42:45.389 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:45.390 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.018 socket_options=None
+14:42:45.396 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD133AE70>
+14:42:45.396 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD42D15B0> server_hostname='generativelanguage.googleapis.com' timeout=0.018
+14:42:45.424 [DEBUG] httpcore.connection: start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1011: The handshake operation timed out'))
+14:42:45.424 [WARNING] core.translator: Model gemma-3-12b-it failed with Key #1: _ssl.c:1011: The handshake operation timed out
+14:42:46.290 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:46.291 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.014 socket_options=None
+14:42:46.327 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD42EF9B0>
+14:42:46.327 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD42D1880> server_hostname='generativelanguage.googleapis.com' timeout=0.014
+14:42:46.343 [DEBUG] httpcore.connection: start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1011: The handshake operation timed out'))
+14:42:46.344 [WARNING] core.translator: Model gemma-3-4b-it failed with Key #1: _ssl.c:1011: The handshake operation timed out
+14:42:47.184 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:47.185 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.009 socket_options=None
+14:42:47.390 [DEBUG] httpcore.connection: connect_tcp.failed exception=ConnectTimeout(TimeoutError('timed out'))
+14:42:47.391 [WARNING] core.translator: Model gemma-3n-e2b-it failed with Key #1: timed out
+14:42:48.244 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:48.245 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.007 socket_options=None
+14:42:48.250 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD4325AE0>
+14:42:48.250 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD42D1D90> server_hostname='generativelanguage.googleapis.com' timeout=0.007
+14:42:48.263 [DEBUG] httpcore.connection: start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1011: The handshake operation timed out'))
+14:42:48.263 [WARNING] core.translator: Model gemini-2.5-flash-lite failed with Key #1: _ssl.c:1011: The handshake operation timed out
+14:42:49.167 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+14:42:49.168 [DEBUG] httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=0.01 socket_options=None
+14:42:49.173 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025AD42BDC50>
+14:42:49.173 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025AD42D2060> server_hostname='generativelanguage.googleapis.com' timeout=0.01
+14:42:49.193 [DEBUG] httpcore.connection: start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1011: The handshake operation timed out'))
+14:42:49.193 [WARNING] core.translator: Model gemma-3-1b-it failed with Key #1: _ssl.c:1011: The handshake operation timed out
+14:42:49.194 [INFO] core.translator: Falling back to Google Translate
+14:42:49.368 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): translate.google.com:443
+14:42:49.494 [DEBUG] urllib3.connectionpool: https://translate.google.com:443 "GET /m?tl=ja&sl=auto&q=Li%C3%AAn+l%E1%BA%A1c+KTCT+x%C3%A1c+nh%E1%BA%ADn+%E2%80%A9Gi%E1%BB%AF+m%C3%A1y+%C4%91i%E1%BB%81u+tra HTTP/1.1" 200 None
+14:42:50.731 [INFO] core.translator: Google Translate successful
+14:45:38.196 [DEBUG] ui.main_window: Loading grid data. Dept: 1, Pending: False, JP: False
+14:45:38.197 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=Máy in, Pending=False, JP=False
+14:45:38.200 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:45:38.203 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:45:38.204 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=KIT, Pending=False, JP=False
+14:45:38.207 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:45:38.210 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:45:38.213 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:45:38.627 [DEBUG] ui.main_window: Loading grid data. Dept: 2, Pending: False, JP: False
+14:45:38.628 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=Máy in, Pending=False, JP=False
+14:45:38.631 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:45:38.635 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:45:38.636 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=KIT, Pending=False, JP=False
+14:45:38.639 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:45:38.642 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:45:38.645 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:45:39.027 [DEBUG] ui.main_window: Loading grid data. Dept: 3, Pending: False, JP: False
+14:45:39.028 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=Máy in, Pending=False, JP=False
+14:45:39.032 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:45:39.035 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:45:39.036 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=KIT, Pending=False, JP=False
+14:45:39.039 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:45:39.042 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:45:39.045 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:45:55.715 [DEBUG] ui.main_window: Loading grid data. Dept: 4, Pending: False, JP: False
+14:45:55.718 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=Máy in, Pending=False, JP=False
+14:45:55.722 [DEBUG] ui.widgets.data_grid: GridView fetched: 3 records
+14:45:55.727 [INFO] ui.widgets.data_grid: Loaded 3 records
+14:45:55.728 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=KIT, Pending=False, JP=False
+14:45:55.730 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:45:55.735 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:45:55.738 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:55:34.945 [DEBUG] ui.main_window: Loading grid data. Dept: 3, Pending: False, JP: False
+14:55:34.945 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=Máy in, Pending=False, JP=False
+14:55:34.947 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:34.948 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:34.949 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=KIT, Pending=False, JP=False
+14:55:34.950 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:34.952 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:34.954 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:55:35.573 [DEBUG] ui.main_window: Loading grid data. Dept: 1, Pending: False, JP: False
+14:55:35.573 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=Máy in, Pending=False, JP=False
+14:55:35.575 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:35.576 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:35.577 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=1, Sheet=KIT, Pending=False, JP=False
+14:55:35.578 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:35.579 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:35.581 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:55:36.161 [DEBUG] ui.main_window: Loading grid data. Dept: 2, Pending: False, JP: False
+14:55:36.162 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=Máy in, Pending=False, JP=False
+14:55:36.163 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:36.166 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:36.166 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=2, Sheet=KIT, Pending=False, JP=False
+14:55:36.168 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:36.169 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:36.171 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:55:36.598 [DEBUG] ui.main_window: Loading grid data. Dept: 3, Pending: False, JP: False
+14:55:36.599 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=Máy in, Pending=False, JP=False
+14:55:36.600 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:36.602 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:36.602 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=3, Sheet=KIT, Pending=False, JP=False
+14:55:36.603 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:36.605 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:36.607 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'
+14:55:36.973 [DEBUG] ui.main_window: Loading grid data. Dept: 4, Pending: False, JP: False
+14:55:36.973 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=Máy in, Pending=False, JP=False
+14:55:36.974 [DEBUG] ui.widgets.data_grid: GridView fetched: 3 records
+14:55:36.976 [INFO] ui.widgets.data_grid: Loaded 3 records
+14:55:36.976 [DEBUG] ui.widgets.data_grid: GridView fetching: Dept=4, Sheet=KIT, Pending=False, JP=False
+14:55:36.978 [DEBUG] ui.widgets.data_grid: GridView fetched: 0 records
+14:55:36.979 [INFO] ui.widgets.data_grid: Loaded 0 records
+14:55:36.980 [ERROR] ui.main_window: Failed to load data: DatabaseManager.get_dashboard_stats() got an unexpected keyword argument 'department_id'

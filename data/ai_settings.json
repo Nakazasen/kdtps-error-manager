@@ -1,0 +1,60 @@
+{
+    "api_key": "AIzaSyB5C8dZxVmDrDdhLRXTTThNJKjWIc00MPg",
+    "api_keys": [
+        "AIzaSyB5C8dZxVmDrDdhLRXTTThNJKjWIc00MPg"
+    ],
+    "waterfall_strategy": [
+        {
+            "model_id": "gemini-2.5-flash",
+            "is_active": true,
+            "timeout": 12
+        },
+        {
+            "model_id": "gemini-3-flash-preview",
+            "is_active": true,
+            "timeout": 60
+        },
+        {
+            "model_id": "gemini-robotics-er-1.5-preview",
+            "is_active": true,
+            "timeout": 28
+        },
+        {
+            "model_id": "gemma-3-27b-it",
+            "is_active": true,
+            "timeout": 17
+        },
+        {
+            "model_id": "gemma-3-12b-it",
+            "is_active": true,
+            "timeout": 18
+        },
+        {
+            "model_id": "gemma-3-4b-it",
+            "is_active": true,
+            "timeout": 14
+        },
+        {
+            "model_id": "gemma-3n-e2b-it",
+            "is_active": true,
+            "timeout": 9
+        },
+        {
+            "model_id": "gemini-2.5-flash-lite",
+            "is_active": true,
+            "timeout": 7
+        },
+        {
+            "model_id": "gemini-2.5-computer-use-preview-10-2025",
+            "is_active": false,
+            "timeout": 10
+        },
+        {
+            "model_id": "gemma-3-1b-it",
+            "is_active": true,
+            "timeout": 10
+        }
+    ],
+    "translation_service": "gemini",
+    "fallback_to_google": true
+}

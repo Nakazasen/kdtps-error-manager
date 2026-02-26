@@ -1,0 +1,30 @@
+{
+  "db_name": "kdtps.db",
+  "kdtps_source_path": "\\fstvn01\\Data\\00_KDTVN Common(KDTVN共通)\\③Process QC(品質管理)\\001. Báo cáo hàng ngày KDTPS",
+  "departments": {
+    "Cơ 1.1": {
+      "path": "\\fstvn01\\Data\\10_Production Engineering Department(製造技術部)\\02.製造技術課\\PE Dept\\30. Lỗi phát sinh -不具合発生\\Tổng hợp lỗi KDTPS của Phòng\\Cơ 1\\Cơ 1.1",
+      "lines": []
+    },
+    "Cơ 1.2": {
+      "path": "\\fstvn01\\Data\\10_Production Engineering Department(製造技術部)\\02.製造技術課\\PE Dept\\30. Lỗi phát sinh -不具合発生\\Tổng hợp lỗi KDTPS của Phòng\\Cơ 1\\Cơ 1.2",
+      "lines": []
+    },
+    "Cơ 2.1": {
+      "path": "\\fstvn01\\Data\\10_Production Engineering Department(製造技術部)\\02.製造技術課\\PE Dept\\30. Lỗi phát sinh -不具合発生\\Tổng hợp lỗi KDTPS của Phòng\\Cơ 2\\Cơ 2.1",
+      "lines": []
+    },
+    "Cơ 2.2": {
+      "path": "\\fstvn01\\Data\\10_Production Engineering Department(製造技術部)\\02.製造技術課\\PE Dept\\30. Lỗi phát sinh -不具合発生\\Tổng hợp lỗi KDTPS của Phòng\\Cơ 2\\Cơ 2.2",
+      "lines": []
+    }
+  },
+  "translation_service": "gemini",
+  "kdtps_email_to": [
+    "thuy.ltt@dtvn.kyocera.com",
+    "ha.dtv@dtvn.kyocera.com"
+  ],
+  "email_subject": "【KDTPS】不具合状況連絡",
+  "sync_enabled": true,
+  "sync_interval": 15
+}
